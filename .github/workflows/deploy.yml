@@ -7,7 +7,7 @@ on:
     branches: [main]
 jobs:
   build:
-    # using Ubunt
+    # using Ubuntu
     runs-on: ubuntu-latest
     defaults:
       run:
