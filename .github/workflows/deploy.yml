@@ -46,6 +46,6 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY}}
           SOURCE: "dist/three/"
-          REMOTE_HOST: "15.236.243.185"
+          REMOTE_HOST: "13.39.183.207"
           REMOTE_USER: "ubuntu"
           TARGET: "/var/www/html/three/dist/three"
